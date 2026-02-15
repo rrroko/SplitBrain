@@ -1,0 +1,126 @@
+/* ===== Global ===== */
+QWidget {
+    font-family: "Yu Gothic UI", "Meiryo", sans-serif;
+    font-size: 10pt;
+    color: #111827;
+    background-color: #f3f4f6;
+}
+
+/* メインウィンドウ */
+QMainWindow {
+    background-color: #e5e7eb;
+}
+
+/* 左ナビ */
+QListWidget {
+    background-color: #e5e7eb;
+    border: none;
+    color: #374151;
+}
+
+QListWidget::item {
+    padding: 8px 12px;
+}
+
+QListWidget::item:selected {
+    background-color: #2563eb;
+    color: #f9fafb;
+}
+
+/* タブ */
+QTabWidget::pane {
+    border: none;
+}
+
+QTabBar::tab {
+    padding: 6px 14px;
+    margin-right: 2px;
+    color: #6b7280;
+}
+
+QTabBar::tab:selected {
+    color: #111827;
+    border-bottom: 2px solid #2563eb;
+}
+
+/* カード風グループ */
+QGroupBox {
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    margin-top: 16px;
+    padding: 12px 12px 14px 12px;
+    background-color: #ffffff;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 6px;
+    margin-left: 4px;
+    color: #111827;
+    font-weight: 600;
+    font-size: 10pt;
+}
+
+/* ラベル */
+QLabel {
+    color: #111827;
+}
+
+/* 入力系 */
+QLineEdit,
+QPlainTextEdit,
+QTextEdit,
+QComboBox {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 4px 6px;
+    color: #111827;
+    min-height: 26px;
+}
+
+QPlainTextEdit,
+QTextEdit {
+    min-height: 80px;
+}
+
+QLineEdit:focus,
+QPlainTextEdit:focus,
+QTextEdit:focus,
+QComboBox:focus {
+    border: 1px solid #2563eb;
+}
+
+/* ボタン */
+QPushButton {
+    border-radius: 8px;
+    padding: 6px 12px;
+    border: 1px solid #2563eb;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+
+QPushButton:disabled {
+    background-color: #e5e7eb;
+    border-color: #e5e7eb;
+    color: #9ca3af;
+}
+
+/* ステータスバー / ツールチップ */
+QStatusBar {
+    background-color: #e5e7eb;
+    color: #374151;
+}
+
+QToolTip {
+    background-color: #f9fafb;
+    color: #111827;
+    border: 1px solid #d1d5db;
+}

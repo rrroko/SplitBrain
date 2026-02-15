@@ -1,0 +1,28 @@
+{
+  "focus": {
+    "auto_actions": [
+      {
+        "type": "open_url",
+        "url": "https://www.youtube.com"
+      }
+    ],
+    "pinned_actions": []
+  },
+  "relax": {
+    "auto_actions": [
+      {
+        "type": "open_url",
+        "url": "https://www.youtube.com/results?search_query=lofi+hip+hop+radio"
+      }
+    ],
+    "pinned_actions": []
+  },
+  "present": {
+    "auto_actions": [
+      {
+        "type": "open_latest_pptx"
+      }
+    ],
+    "pinned_actions": []
+  }
+}

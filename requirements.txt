@@ -1,0 +1,17 @@
+# SplitBrain (assistant + modes + screen OCR) minimal
+PySide6>=6.6.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.26.0
+
+# ASR
+faster-whisper>=0.10.0
+
+# Screen capture + OCR
+Pillow
+pytesseract
+
+# PC automation
+pyautogui>=0.9.54
+
+pyttsx3
